@@ -5,61 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google_Homepage</title>
+    <meta name="decription" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+
 </head>
 
 <body>
 
-    <!-- Top left side of page -->
-        <div>
-            <a href="#">About</a>
-            <a href="#">Store</a>
-        </div>
+   <header>
+        <!--nav bars for header-->
+        <nav class='nav-left'>
+            <ul>
+                <li> <a href="#"> About </a> </li>
+                <li> <a href="#"> Store </a> </li>
+            </ul>
+        </nav>
 
-    <!-- Top Right side of page-->
-        <div>
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
+            <nav class='nav-right'>
+                <ul>
+                    <li> <a href="#"> Gmail </a> </li>
+                    <li> <a href="#"> Images </a> </li>
+                    <li> <a href="#"> <img src="google button.png" alt="google-button"></a> </li>
+                    <li> <button class='sign-in'>Sign in</button> </li>
+                </ul>
+            </nav>
             
-            <a href="#">Sign in</a>
-        </div>    
+    </header>
 
-    <!-- Main search bar centered in page-->
-        <div>
-            <form id="form"> 
-                <input type="search" id="query" name="q" placeholder="Search...">
-                <button>Google Search</button>
-                <button>I feel Lucky</button>
-            </form>
-        </div>
+    <!--main google image centre-->
+    <div class='logo'>
+        <img src='google logo.png' alt='google-logo'>
+    </div>
+
+    <br>
+
+    <!-- Search bar-->
+    <div class='search'>
+        <table>
+            <tr>
+                <th>
+                    <img src="baseline_search_black_24dp.png" alt="search image">
+                </th>
+                <th>
+                    <input type="text" placeholder="">
+                </th>   
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <!-- Search buttons-->
+    <div class='buttons'>
+        <button>Google Search</button>
+        <button>I Feel Lucky</button>
+    </div>
+
 
     <footer>
-       
-    <!-- Country description goes to top left of footer-->    
-        <div>
-            <p>United Kingdom</p>
-        </div>   
-
-    <!-- Centered in footer -->  
-        <div>
-            <a href="#">Carbon neutral since 2007</a>
+        <!-- Footer navigation -->
+        <div class='left'>
+            <ul>
+                <li><a href="#"> Advertising </a> </li></li>
+                <li><a href="#"> Business </a> </li></li>
+                <li><a href="#"> How Search works </a> </li></li>
+            </ul>
         </div>
 
-    <!-- Left side base of footer-->
-        <div>
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
-            <a href="#">How Search works</a>
-        </div>  
+        <div class='middle'>
+            <ul>
+                <li><a href="#"> Carbon Neutral since 2007 </a> </li></li>
+            </ul>
+        </div>
 
-    <!-- Right side base of footer-->
-        <div>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+        <div class='left'>
+            <ul>
+                <li><a href="#"> Privacy </a> </li></li>
+                <li><a href="#"> Terms </a> </li></li>
+                <li><a href="#"> Settings </a> </li></li>
+            </ul>
         </div>
 
     </footer>
-
-</body>
-
-</html>
+</body>    

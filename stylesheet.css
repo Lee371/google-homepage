@@ -1,0 +1,140 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  color: #222;
+  font-size: 14px;
+  margin: 10px, 0px, 30px, 10px;
+ 
+}
+
+/* Header Navigation bars */ 
+
+.nav-left {
+  margin-top: 10px;
+  align-items: center;
+  flex-grow: 1;
+  color: #222;
+}
+
+.nav-right {
+align-items: center;
+}
+
+
+.sign-in {
+  background-color: #1a73e8;
+  padding: 7px;
+  width: 100px;
+  color: white;
+  font-size: 15px; 
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+}
+
+.sign-in:hover {
+  cursor: pointer;
+}
+
+
+/* footer elements */ 
+footer {
+display: flex;
+height: 50px;
+background-color: #f2f2f2;
+color: #222;
+align-items: center;
+margin-top: auto;
+font-size: 14px;
+}
+
+.left {
+  flex-grow: ;
+  justify-content: start;
+}
+
+.middle {
+  flex-grow: 1;
+
+}
+
+.right {
+  flex-grow: ;
+  justify-content: flex-end;
+}
+
+/* list styling */ 
+
+ul {
+list-style-type: none;
+}
+
+li {
+display: inline-block;
+padding: 10px;
+}
+li a {
+text-decoration: none;
+color: #222;  
+}
+
+div {
+display: flex;
+justify-content: center;
+} 
+
+/* search bar styling */
+
+table { 
+padding: 5px;
+justify-content: center;
+border-style: solid;
+border-width: 2px;
+border-color: #dfe1e5;
+border-radius: 50px;
+margin-top: 20px;
+}
+
+
+input {
+  font-size: 15px;
+  border: none;
+  width: 540px;
+  outline: none;  
+  }
+
+/* search button settings */
+
+.buttons {
+margin-top: 20px;
+}
+
+.buttons button{
+color: #494d50;
+background-color: #f8f9fa;
+font-size: 14px;
+border-radius: 1px;
+margin-left: 15px;
+border: none;
+padding: 10px;
+}
+
+.buttons button:hover {
+border-color: #f8f9fa;
+border: solid;
+border-width: 1px;
+border-radius: 2px;
+cursor: pointer;
+}
+
+
